@@ -16,4 +16,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/toro.mk \
     $(LOCAL_DIR)/torospr.mk \
     $(LOCAL_DIR)/vibrantmtd.mk \
-    $(LOCAL_DIR)/wingray.mk
+    $(LOCAL_DIR)/wingray.mk \
+    $(LOCAL_DIR)/hws7300u.mk
