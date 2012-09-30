@@ -1,20 +1,20 @@
-# Inherit AOSP device configuration for grouper
+# Inherit AOSP device configuration for medipad
 $(call inherit-product, device/huawei/hws7300u/device_hws7300u.mk)
+
+# Inherit GSM common stuff
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_tablet_small.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/grouper
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/hws7300u
 
 # Setup device specific product configuration.
-PRODUCT_DEVICE := hws7300u
 PRODUCT_NAME := aokp_hws7300u
 PRODUCT_BRAND := Huawei
+PRODUCT_DEVICE := hws7300u
 PRODUCT_MODEL := Huawei MediaPad
-PRODUCT_MANUFACTURER := Huawei
-
-ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
-ADDITIONAL_DEFAULT_PROPERTIES += ro.allow.mock.location=1
+PRODUCT_MANUFACTURER : = Huawei
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
