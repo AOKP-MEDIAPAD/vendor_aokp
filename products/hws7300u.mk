@@ -17,4 +17,4 @@ PRODUCT_MODEL := Huawei MediaPad
 PRODUCT_MANUFACTURER : = Huawei
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
+    device/huawei/hws7300u/prebuilt/bootanimation.zip:system/media/bootanimation.zip
