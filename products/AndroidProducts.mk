@@ -25,4 +25,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/tf101.mk \
     $(LOCAL_DIR)/toro.mk \
     $(LOCAL_DIR)/toroplus.mk \
+    $(LOCAL_DIR)/hws7300u.mk \
     $(LOCAL_DIR)/vibrantmtd.mk
