@@ -1,1 +1,2 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/hws7300u.mk
+
