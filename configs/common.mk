@@ -15,11 +15,12 @@ PRODUCT_PACKAGES += \
     SuperSU \
     SwagPapers \
     Torch \
-    UnicornPorn
+    UnicornPorn 
 
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/xbin/su:system/xbin/su
+    vendor/aokp/prebuilt/common/xbin/su:system/xbin/su \
+    vendor/aokp/prebuilt/common/app/Chronus.apk:system/app/Chronus.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
