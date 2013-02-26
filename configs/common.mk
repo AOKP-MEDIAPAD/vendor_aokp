@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
     SwagPapers \
     Torch \
     UnicornPorn \
-    Chronus
+    Chronus \
+	AOKPBackup
     
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
