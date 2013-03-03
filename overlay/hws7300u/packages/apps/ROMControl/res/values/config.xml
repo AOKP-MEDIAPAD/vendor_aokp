@@ -14,4 +14,6 @@
 
     <!-- Whether can use color tuning -->
     <bool name="has_color_tuning">false</bool>
+    
+    <bool name="config_stylusGestures">false</bool>
 </resources>
