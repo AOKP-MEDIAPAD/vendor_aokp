@@ -1,3 +1,5 @@
+SUPERUSER_EMBEDDED := true
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
@@ -12,16 +14,14 @@ PRODUCT_PACKAGES += \
     NovaLauncher \
     PerformanceControl \
     ROMControl \
-    SuperSU \
+    Superuser \
+    su \
     SwagPapers \
     Torch \
     UnicornPorn \
     Chronus \
 	AOKPBackup
     
-# Use prebuilt su until fixed when built
-PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/xbin/su:system/xbin/su
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
