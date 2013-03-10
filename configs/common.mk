@@ -19,8 +19,8 @@ PRODUCT_PACKAGES += \
     SwagPapers \
     Torch \
     UnicornPorn \
-    Chronus \
-	AOKPBackup
+    LockClock \
+    AOKPBackup
     
 
 PRODUCT_PROPERTY_OVERRIDES += \
