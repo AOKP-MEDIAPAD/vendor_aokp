@@ -4,6 +4,10 @@ $(call inherit-product, device/huawei/hws7300u/device_hws7300u.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+#Device bootanimation
+PRODUCT_COPY_FILES += \
+    device/huawei/hws7300u/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
@@ -16,5 +20,4 @@ PRODUCT_DEVICE := hws7300u
 PRODUCT_MODEL := Huawei MediaPad
 PRODUCT_MANUFACTURER : = Huawei
 
-PRODUCT_COPY_FILES += \
-    device/huawei/hws7300u/prebuilt/bootanimation.zip:system/media/bootanimation-alt.zip
+
