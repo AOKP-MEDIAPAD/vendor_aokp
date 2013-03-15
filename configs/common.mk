@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     Torch \
     UnicornPorn \
     LockClock \
+    CMFileManager \
     AOKPBackup
     
 
