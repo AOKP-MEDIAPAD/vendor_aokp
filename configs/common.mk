@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     UnicornPorn \
     LockClock \
     CMFileManager \
-    AOKPBackup
+    AOKPBackup \
+    TeslaUnread
     
 
 PRODUCT_PROPERTY_OVERRIDES += \
