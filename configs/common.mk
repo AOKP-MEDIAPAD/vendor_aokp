@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     Microbes \
     NovaLauncher \
-    PerformanceControl \
     ROMControl \
     Superuser \
     su \
