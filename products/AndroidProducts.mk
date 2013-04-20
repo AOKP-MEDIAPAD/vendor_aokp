@@ -1,5 +1,6 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hws7300u.mk \
+	$(LOCAL_DIR)/u8860.mk \
     $(LOCAL_DIR)/passion.mk \
     $(LOCAL_DIR)/a510.mk \
     $(LOCAL_DIR)/d2att.mk \
