@@ -1,3 +1,6 @@
+PRODUCT_COPY_FILES += \
+   vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
+   
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8860/u8860.mk)
 
@@ -21,9 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	BUILD_FINGERPRINT=huawei/u8860:4.2.1/IMM76L/223155:userdebug/test-keys \
 	PRIVATE_BUILD_DESC="huawei-user 4.2.1 IMM76L 223155 test-keys" \
 	BUILD_NUMBER=223155
-
-PRODUCT_COPY_FILES += \
-   vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation.zip
 
 
 
