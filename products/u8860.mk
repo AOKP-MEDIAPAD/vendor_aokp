@@ -1,6 +1,3 @@
-PRODUCT_COPY_FILES += \
-   vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
-   
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8860/u8860.mk)
 
