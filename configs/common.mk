@@ -23,8 +23,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMFileManager \
     AOKPBackup \
-    TeslaUnread
-    
+    TeslaUnread \
+    Apollo
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
