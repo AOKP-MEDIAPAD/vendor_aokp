@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     mGerrit \
     Microbes \
-    NovaLauncher \
     PermissionsManager \
     ROMControl \
     Superuser \
@@ -23,8 +22,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMFileManager \
     AOKPBackup \
-    TeslaUnread \
-    Apollo
+    Apollo \
+	PerformanceControl \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \

@@ -6,6 +6,8 @@ $(call inherit-product, device/htc/passion/full_passion.mk)
 # Inherit some common aokp stuff.
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
+# NOVA LAUNCHER HACKS
+$(call inherit-product, vendor/aokp/configs/nova.mk)
 #
 # Setup device specific product configuration.
 #

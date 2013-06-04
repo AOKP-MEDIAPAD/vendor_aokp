@@ -7,6 +7,9 @@ $(call inherit-product, vendor/aokp/configs/common.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+# NOVA LAUNCHER HACKS
+$(call inherit-product, vendor/aokp/configs/nova.mk)
+
 # Setup device configuration
 PRODUCT_NAME := aokp_u8860
 PRODUCT_DEVICE := u8860

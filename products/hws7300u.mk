@@ -4,6 +4,9 @@ $(call inherit-product, device/huawei/hws7300u/device_hws7300u.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
+# NOVA LAUNCHER HACKS
+$(call inherit-product, vendor/aokp/configs/nova.mk)
+
 #Device bootanimation
 PRODUCT_COPY_FILES += \
     device/huawei/hws7300u/prebuilt/bootanimation.zip:system/media/bootanimation.zip
