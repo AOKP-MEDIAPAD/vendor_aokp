@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     AOKPBackup \
     Apollo \
-	PerformanceControl \
+    PerformanceControl \
+    HALO
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
