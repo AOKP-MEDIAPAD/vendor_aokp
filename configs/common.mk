@@ -79,6 +79,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Antimony.ogg \
     ro.config.alarm_alert=Scandium.ogg
 
+#DSP Manager
+PRODUCT_PACKAGES += \
+    audio_effects.conf \
+    DSPManager \
+    libcyanogen-dsp
+
+	
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Inherit common build.prop overrides
