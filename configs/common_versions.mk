@@ -4,24 +4,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-bui
 DATE = $(shell vendor/aokp/tools/getdate)
 AOKP_BRANCH=jb-mr1
 
-ifneq ($(AOKP_BUILD),)
-    # AOKP_BUILD=<goo version int>/<build string>
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.goo.developerid=aokp \
-        ro.goo.rom=aokp \
-        ro.goo.version=$(shell echo $(AOKP_BUILD) | cut -d/ -f1) \
-        ro.aokp.version=$(TARGET_PRODUCT)_$(AOKP_BRANCH)_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
-else
-    ifneq ($(AOKP_NIGHTLY),)
-        # AOKP_NIGHTLY=true
-        PRODUCT_PROPERTY_OVERRIDES += \
-            ro.aokp.version=$(TARGET_PRODUCT)_nightly_$(DATE)
-    else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.aokp.version=$(TARGET_PRODUCT)_unofficial_$(DATE)
-    endif
-endif
-
+#GOO.IM OTA System 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=zyr3x \
+    ro.goo.board=$(AOKP_PRODUCT) \
+    ro.goo.rom=aokpzmod \
+    ro.goo.version=$(shell date +%Y%m%d)
+	ro.aokp.version=aokpzmod_$(AOKP_PRODUCT)_nightly_$(DATE)
+	
 # needed for statistics
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.aokp.branch=$(AOKP_BRANCH) \
