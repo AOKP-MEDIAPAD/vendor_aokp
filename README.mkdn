@@ -1,4 +1,4 @@
-[Android Open Kang Project](aokp.co)
+[Android Open Kang Project Z Modifiction]
 ====================================
 
 
@@ -10,6 +10,10 @@ Please read the [AOSP building instructions](http://source.android.com/source/in
 Initialize
 
     repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr1
+    cd .repo/
+    git clone https://github.com/AOKPZMod/local_manifests.git
+    cd local_manifests/
+    git checkout <local_branch>
 
 Run the following to sync the source
 
@@ -20,7 +24,7 @@ Run the following to sync the source
 Download the kernel source
 --------------------------
 
-Integrated kernel building is now **required** to compile AOKP for _all_ supported devices (even Nexus devices!)
+Integrated kernel building is now **required** to compile AOKPZMod for _all_ supported devices (even Nexus devices!)
 
 From the root of your source tree, run the following script to grab the kernel sources required
 
