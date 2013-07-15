@@ -9,7 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=zyr3x \
     ro.goo.board=$(AOKP_PRODUCT) \
     ro.goo.rom=aokpzmod \
-    ro.goo.version=$(shell date +%Y%m%d)
+    ro.goo.version=$(shell date +%Y%m%d) \
 	ro.aokp.version=aokpzmod_$(AOKP_PRODUCT)_nightly_$(DATE)
 	
 # needed for statistics
