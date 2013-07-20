@@ -85,6 +85,9 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp
 
+# SELinux filesystem labels
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
 	
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
