@@ -16,7 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hercules.mk \
     $(LOCAL_DIR)/honami.mk \
     $(LOCAL_DIR)/huashan.mk \
-    $(LOCAL_DIR)/hltetmo.mk \
+    $(LOCAL_DIR)/hlte.mk \
     $(LOCAL_DIR)/i605.mk \
     $(LOCAL_DIR)/i9100.mk \
     $(LOCAL_DIR)/i9100g.mk \
@@ -29,10 +29,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/jfltevzw.mk \
     $(LOCAL_DIR)/l900.mk \
     $(LOCAL_DIR)/ls980.mk \
-    $(LOCAL_DIR)/m7att.mk \
+    $(LOCAL_DIR)/m7.mk \
     $(LOCAL_DIR)/m7spr.mk \
-    $(LOCAL_DIR)/m7tmo.mk \
-    $(LOCAL_DIR)/m7ul.mk \
     $(LOCAL_DIR)/m7vzw.mk \
     $(LOCAL_DIR)/maguro.mk \
     $(LOCAL_DIR)/mako.mk \
