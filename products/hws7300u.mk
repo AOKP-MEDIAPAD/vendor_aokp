@@ -1,6 +1,6 @@
 # boot animation
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720.zip:system/media/bootanimation.zip
 
 # Inherit AOSP device configuration for medipad
 $(call inherit-product, device/huawei/hws7300u/device_hws7300u.mk)
