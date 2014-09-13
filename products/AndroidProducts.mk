@@ -3,15 +3,18 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hws7300u.mk \
     $(LOCAL_DIR)/amami.mk \
     $(LOCAL_DIR)/anzu.mk \
+    $(LOCAL_DIR)/bacon.mk \
     $(LOCAL_DIR)/coconut.mk \
     $(LOCAL_DIR)/d2lte.mk \
     $(LOCAL_DIR)/d800.mk \
     $(LOCAL_DIR)/d801.mk \
     $(LOCAL_DIR)/d802.mk \
+    $(LOCAL_DIR)/deb.mk \
     $(LOCAL_DIR)/dogo.mk \
     $(LOCAL_DIR)/e980.mk \
     $(LOCAL_DIR)/evita.mk \
     $(LOCAL_DIR)/find5.mk \
+    $(LOCAL_DIR)/find7.mk \
     $(LOCAL_DIR)/grouper.mk \
     $(LOCAL_DIR)/haida.mk \
     $(LOCAL_DIR)/hallon.mk \
@@ -26,6 +29,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9500.mk \
     $(LOCAL_DIR)/iyokan.mk \
     $(LOCAL_DIR)/jflte.mk \
+    $(LOCAL_DIR)/klte.mk \
     $(LOCAL_DIR)/l900.mk \
     $(LOCAL_DIR)/ls980.mk \
     $(LOCAL_DIR)/m7.mk \
@@ -44,6 +48,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pollux.mk \
     $(LOCAL_DIR)/pollux_windy.mk \
     $(LOCAL_DIR)/satsuma.mk \
+    $(LOCAL_DIR)/serranoltexx.mk \
+    $(LOCAL_DIR)/sirius.mk \
     $(LOCAL_DIR)/smultron.mk \
     $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/spyder.mk \
