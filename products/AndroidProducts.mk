@@ -3,6 +3,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hws7300u.mk \
     $(LOCAL_DIR)/amami.mk \
     $(LOCAL_DIR)/anzu.mk \
+    $(LOCAL_DIR)/apexqtmo.mk \
     $(LOCAL_DIR)/bacon.mk \
     $(LOCAL_DIR)/coconut.mk \
     $(LOCAL_DIR)/d2lte.mk \
@@ -15,6 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/evita.mk \
     $(LOCAL_DIR)/find5.mk \
     $(LOCAL_DIR)/find7.mk \
+    $(LOCAL_DIR)/ghost.mk \
     $(LOCAL_DIR)/grouper.mk \
     $(LOCAL_DIR)/haida.mk \
     $(LOCAL_DIR)/hallon.mk \
@@ -42,7 +44,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/mint.mk \
-    $(LOCAL_DIR)/moto_msm8960dt.mk \
     $(LOCAL_DIR)/odin.mk \
     $(LOCAL_DIR)/p930.mk \
     $(LOCAL_DIR)/pollux.mk \

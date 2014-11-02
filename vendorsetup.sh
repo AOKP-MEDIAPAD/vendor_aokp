@@ -9,6 +9,7 @@ add_lunch_combo aokp_grouper-userdebug
 add_lunch_combo aokp_tilapia-userdebug
 add_lunch_combo aokp_amami-userdebug
 add_lunch_combo aokp_anzu-userdebug
+add_lunch_combo aokp_apexqtmo-userdebug
 add_lunch_combo aokp_bacon-userdebug
 add_lunch_combo aokp_coconut-userdebug
 add_lunch_combo aokp_d2lte-userdebug
@@ -19,6 +20,7 @@ add_lunch_combo aokp_dogo-userdebug
 add_lunch_combo aokp_e980-userdebug
 add_lunch_combo aokp_find5-userdebug
 add_lunch_combo aokp_find7-userdebug
+add_lunch_combo aokp_ghost-userdebug
 add_lunch_combo aokp_haida-userdebug
 add_lunch_combo aokp_hallon-userdebug
 add_lunch_combo aokp_hlte-userdebug
@@ -38,7 +40,6 @@ add_lunch_combo aokp_m7vzw-userdebug
 add_lunch_combo aokp_m8-userdebug
 add_lunch_combo aokp_mango-userdebug
 add_lunch_combo aokp_mint-userdebug
-add_lunch_combo aokp_moto_msm8960dt-userdebug
 add_lunch_combo aokp_n1-userdebug
 add_lunch_combo aokp_odin-userdebug
 add_lunch_combo aokp_p930-userdebug
